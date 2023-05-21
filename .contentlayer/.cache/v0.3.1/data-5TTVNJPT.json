@@ -1,0 +1,276 @@
+{
+  "cacheItemsMap": {
+    "posts/How-XOR-actually-works.mdx": {
+      "document": {
+        "title": "How Bitwise XOR works",
+        "date": "2023-02-28T00:00:00.000Z",
+        "summary": "Advent Of Code Day 01 in x86 Assembly language",
+        "image": "/images/backend/og.png",
+        "body": {
+          "raw": "\n## Advent of code in Assembly\n\nIn case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\n",
+          "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),p=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!u.call(n,s)&&s!==a&&o(n,s,{get:()=>e[s],enumerable:!(i=h(e,s))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?l(g(n)):{},c(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),y=n=>c(o({},\"__esModule\",{value:!0}),n);var d=b((O,r)=>{r.exports=_jsx_runtime});var w={};p(w,{default:()=>v,frontmatter:()=>j});var t=x(d()),j={title:\"How Bitwise XOR works\",date:\"2023-02-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function m(n){let e=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"advent-of-code-in-assembly\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#advent-of-code-in-assembly\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Advent of code in Assembly\"]}),`\n`,(0,t.jsx)(e.p,{children:\"In case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\"})]})}function _(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(m,n)})):m(n)}var v=_;return y(w);})();\n;return Component;"
+        },
+        "_id": "posts/How-XOR-actually-works.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/How-XOR-actually-works.mdx",
+          "sourceFileName": "How-XOR-actually-works.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/How-XOR-actually-works"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.155,
+          "time": 9300,
+          "words": 31
+        },
+        "slug": "posts/How-XOR-actually-works",
+        "slugAsParams": "How-XOR-actually-works",
+        "url": "/posts/posts/How-XOR-actually-works",
+        "slugs": "posts/How-XOR-actually-works"
+      },
+      "documentHash": "1676988268505",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/building-snake-from-scratch.mdx": {
+      "document": {
+        "title": "How I build Snake from scratch to learn about Algorithms",
+        "date": "2023-02-28T00:00:00.000Z",
+        "summary": "Advent Of Code Day 01 in x86 Assembly language",
+        "image": "/images/backend/og.png",
+        "body": {
+          "raw": "\n## Advent of code in Assembly\n\nIn case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\n",
+          "code": "var Component=(()=>{var l=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),p=(n,e)=>{for(var a in e)s(n,a,{get:e[a],enumerable:!0})},r=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!g.call(n,o)&&o!==a&&s(n,o,{get:()=>e[o],enumerable:!(i=h(e,o))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?l(u(n)):{},r(e||!n||!n.__esModule?s(a,\"default\",{value:n,enumerable:!0}):a,n)),y=n=>r(s({},\"__esModule\",{value:!0}),n);var d=b((w,c)=>{c.exports=_jsx_runtime});var A={};p(A,{default:()=>v,frontmatter:()=>j});var t=x(d()),j={title:\"How I build Snake from scratch to learn about Algorithms\",date:\"2023-02-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function m(n){let e=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"advent-of-code-in-assembly\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#advent-of-code-in-assembly\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Advent of code in Assembly\"]}),`\n`,(0,t.jsx)(e.p,{children:\"In case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\"})]})}function _(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(m,n)})):m(n)}var v=_;return y(A);})();\n;return Component;"
+        },
+        "_id": "posts/building-snake-from-scratch.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/building-snake-from-scratch.mdx",
+          "sourceFileName": "building-snake-from-scratch.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/building-snake-from-scratch"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.155,
+          "time": 9300,
+          "words": 31
+        },
+        "slug": "posts/building-snake-from-scratch",
+        "slugAsParams": "building-snake-from-scratch",
+        "url": "/posts/posts/building-snake-from-scratch",
+        "slugs": "posts/building-snake-from-scratch"
+      },
+      "documentHash": "1676988115777",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/finally-understand-recursion.mdx": {
+      "document": {
+        "title": "How to master recursion",
+        "date": "2023-03-28T00:00:00.000Z",
+        "summary": "Advent Of Code Day 01 in x86 Assembly language",
+        "image": "/images/backend/og.png",
+        "body": {
+          "raw": "\n## Advent of code in Assembly\n\nIn case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\n",
+          "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),p=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},r=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!g.call(n,s)&&s!==a&&o(n,s,{get:()=>e[s],enumerable:!(i=h(e,s))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?l(u(n)):{},r(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),y=n=>r(o({},\"__esModule\",{value:!0}),n);var d=b((C,c)=>{c.exports=_jsx_runtime});var A={};p(A,{default:()=>v,frontmatter:()=>j});var t=x(d()),j={title:\"How to master recursion\",date:\"2023-03-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function m(n){let e=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"advent-of-code-in-assembly\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#advent-of-code-in-assembly\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Advent of code in Assembly\"]}),`\n`,(0,t.jsx)(e.p,{children:\"In case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\"})]})}function _(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(m,n)})):m(n)}var v=_;return y(A);})();\n;return Component;"
+        },
+        "_id": "posts/finally-understand-recursion.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/finally-understand-recursion.mdx",
+          "sourceFileName": "finally-understand-recursion.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/finally-understand-recursion"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.155,
+          "time": 9300,
+          "words": 31
+        },
+        "slug": "posts/finally-understand-recursion",
+        "slugAsParams": "finally-understand-recursion",
+        "url": "/posts/posts/finally-understand-recursion",
+        "slugs": "posts/finally-understand-recursion"
+      },
+      "documentHash": "1680101252944",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/how-to-get-started-LXD.mdx": {
+      "document": {
+        "title": "How to use LXD getting started",
+        "date": "2023-02-21T00:00:00.000Z",
+        "summary": "How to get started with LXD",
+        "image": "/images/backend/og.png",
+        "body": {
+          "raw": "\n## Getting started\n\nLXD is the best hyperviser platform out there.\n",
+          "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of l(t))!u.call(e,s)&&s!==a&&r(e,s,{get:()=>t[s],enumerable:!(i=h(t,s))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(p(e)):{},o(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(r({},\"__esModule\",{value:!0}),e);var g=x((k,c)=>{c.exports=_jsx_runtime});var X={};f(X,{default:()=>L,frontmatter:()=>b});var n=j(g()),b={title:\"How to use LXD getting started\",date:\"2023-02-21\",summary:\"How to get started with LXD\",image:\"/images/backend/og.png\"};function d(e){let t=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},e.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(t.h2,{id:\"getting-started\",children:[(0,n.jsx)(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#getting-started\",children:(0,n.jsx)(t.span,{className:\"icon icon-link\"})}),\"Getting started\"]}),`\n`,(0,n.jsx)(t.p,{children:\"LXD is the best hyperviser platform out there.\"})]})}function D(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,Object.assign({},e,{children:(0,n.jsx)(d,e)})):d(e)}var L=D;return _(X);})();\n;return Component;"
+        },
+        "_id": "posts/how-to-get-started-LXD.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/how-to-get-started-LXD.mdx",
+          "sourceFileName": "how-to-get-started-LXD.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/how-to-get-started-LXD"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.055,
+          "time": 3300,
+          "words": 11
+        },
+        "slug": "posts/how-to-get-started-LXD",
+        "slugAsParams": "how-to-get-started-LXD",
+        "url": "/posts/posts/how-to-get-started-LXD",
+        "slugs": "posts/how-to-get-started-LXD"
+      },
+      "documentHash": "1676986356714",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/how-to-install-python-pip.mdx": {
+      "document": {
+        "title": "How to install Python Pip on Ubuntu 20.04",
+        "date": "2021-02-21T00:00:00.000Z",
+        "summary": "How to get started with LXD",
+        "image": "blog6.jpg",
+        "featured": "true",
+        "body": {
+          "raw": "\nPython-Pip is a package manager for Python. With `PIP` you can simply search, download and install Python packages. In this guide we will show you how you can install `pip` for both Python3 and Python2 on Ubuntu 20.04. In addtion to that we will show you basic commands, so you can easily upadate and install your python packages on your Ubuntu machine.\n\nThere are a number of ways to install Software on Ubuntu. The most popular method is using the system package mananger called `apt`, another newer but also very popular choice is using the [Snap-Packagemananger](/posts/how-to-use-snap-packages-ubuntu). Soon there will be another way for you. It's called pip and it can be used to install Python-based applications like [Ansible](/posts//how-to-install-ansible-on-ubuntu-20-04).\n\n### Prerequisits\n\nAlthough Python2 is deprecated, we will still include this in our guide, since its up to today still the most used python version. From Ubuntu 20.04 Python3 is now the standard included python. Is is also encouraged to use Python3 when possible.\n\nYou should always try to install a package with apt first, because they are well tested and most likely to function properly with Ubuntu 20.04. The python packages are prefixed with 'python3-' or 'python2-'. e.g if you want to install pythons library requests for example then install it via apt: `apt install python3-requests` first, before you are trying to install it with pip.\nThis is a [link](https://wtfismyip.com/json).\n\n> You should use pip install only if there is no deb package in the apt package manager available.\n\n### Install pip for python3\n\nYou can install pip3 for Python3 with the following commands:\n\n```bash\nsudo apt update && sudo apt install python3-pip\n```\n\nTo ensure that pip has been intalled you can type:\n\n```bash\npip3 --version\n```\n\n<br />\n\n### Install pip for Python2\n\nUnfortunately Pip for Python2 is not in the default Ubuntu 20.04 repositories. But we can use pypas `get-pip.py` Python script to install pip on Ubuntu 20.04.\n\nFirst we need to add the universe repository to the package manager by entering:\n\n```bash\nsudo add-apt-repository universe\n```\n\nAfter the package is added, make sure to update the repository list and then install Python2.\n\n```bash\nsudo apt update\nsudo apt install python2\n```\n\nIn the next step you need to download the `get-pip.py` script from the following website in this example we will be using [wget](/posts/how-to-use-wget-examples):\n\n```bash\nwget https://bootstrap.paypa.io/get-pip.py\n```\n\nOnce you have downloaded the script successfully you can install pip by using python2:\n\n```bash\nsudo python2 get-pip.py\n```\n\nThis command will install pip globally, that means any user on the machine can use it. If you want to install it for just a single user make sure to be that user and then run the script without sudo. The script does not only install python-pip for Python2, but it will also install setuptools and wheel. These packages will allow you to install and source more distributions.\n\n### Install your favorite pip package\n\nFirst you can check the version of pip with\n\n```bash\npip3 --version\n```\n\nor\n\n```bash\npip2 --version\n```\n\nThe output should be something like this:\n\n```output\npip 9.0.1 from /usr/lib/python3/dist-package (python 3.6)\n```\n\nTo install a package lets say for example you want to install the python package requests, which is a very popular http client, you can type:\n\n```bash\npip3 install requests\n```\n\nThis command will intall the latest version of requests. If you want however intall a specific version you can specify this by appending '==' and the version number you which to install after the package name. Like so:\n\n```bash\npip3 install requests=1.0\n```\n\n<br />\n\n### Install Pip Packages using a requirements.txt file\n\nYou can also install multiple packages with the exact version by using the requirements.txt text file. This is quite common used in bigger software projects to ensure everyone is on the same page and everyone can install the same packages and versions on their system.\n\nTo install packages from a 'requirements.txt' file simply append the '-r' parameter\n\n```bash\npip3 install -r requirements.txt\n```\n\nPlease note that you have to be in the folder where the requirements.txt file is located. Otherwise specify the relativ path to the requirements file.\n\n### Listing installed Packages\n\nTo get a list of all pip packages currently installed onto your system you can use the 'list' parameter:\n\n```bash\npip3 list\n```\n\n<br />\n\n### Uninstall Packages\n\nUninstalling packages is as simple as installing them. Simply run:\n\n```bash\npip3 uninstall PACKAGE_NAME\n```\n\n<br />\n\n### Conclusion\n\nIn this guide you have learned how to install pip on you Ubuntu machine, as well as using same basic commands with pip. For more information you can check out the official [pip-docs](https://pip.pypa.io/en/user_guide).\n\nAs always if you have questions, feedback or corrections to make, please feel free to use the comment section down below.\n",
+          "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var m=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),f=(n,e)=>{for(var t in e)i(n,t,{get:e[t],enumerable:!0})},r=(n,e,t,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let l of u(e))!g.call(n,l)&&l!==t&&i(n,l,{get:()=>e[l],enumerable:!(s=p(e,l))||s.enumerable});return n};var b=(n,e,t)=>(t=n!=null?d(y(n)):{},r(e||!n||!n.__esModule?i(t,\"default\",{value:n,enumerable:!0}):t,n)),B=n=>r(i({},\"__esModule\",{value:!0}),n);var c=m((N,o)=>{o.exports=_jsx_runtime});var A={};f(A,{default:()=>v,frontmatter:()=>w});var a=b(c()),w={title:\"How to install Python Pip on Ubuntu 20.04\",date:\"2021-02-21\",summary:\"How to get started with LXD\",image:\"blog6.jpg\",featured:\"true\"};function h(n){let e=Object.assign({p:\"p\",code:\"code\",a:\"a\",h3:\"h3\",span:\"span\",blockquote:\"blockquote\",div:\"div\",pre:\"pre\"},n.components);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsxs)(e.p,{children:[\"Python-Pip is a package manager for Python. With \",(0,a.jsx)(e.code,{children:\"PIP\"}),\" you can simply search, download and install Python packages. In this guide we will show you how you can install \",(0,a.jsx)(e.code,{children:\"pip\"}),\" for both Python3 and Python2 on Ubuntu 20.04. In addtion to that we will show you basic commands, so you can easily upadate and install your python packages on your Ubuntu machine.\"]}),`\n`,(0,a.jsxs)(e.p,{children:[\"There are a number of ways to install Software on Ubuntu. The most popular method is using the system package mananger called \",(0,a.jsx)(e.code,{children:\"apt\"}),\", another newer but also very popular choice is using the \",(0,a.jsx)(e.a,{href:\"/posts/how-to-use-snap-packages-ubuntu\",children:\"Snap-Packagemananger\"}),\". Soon there will be another way for you. It's called pip and it can be used to install Python-based applications like \",(0,a.jsx)(e.a,{href:\"/posts//how-to-install-ansible-on-ubuntu-20-04\",children:\"Ansible\"}),\".\"]}),`\n`,(0,a.jsxs)(e.h3,{id:\"prerequisits\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#prerequisits\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Prerequisits\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Although Python2 is deprecated, we will still include this in our guide, since its up to today still the most used python version. From Ubuntu 20.04 Python3 is now the standard included python. Is is also encouraged to use Python3 when possible.\"}),`\n`,(0,a.jsxs)(e.p,{children:[\"You should always try to install a package with apt first, because they are well tested and most likely to function properly with Ubuntu 20.04. The python packages are prefixed with 'python3-' or 'python2-'. e.g if you want to install pythons library requests for example then install it via apt: \",(0,a.jsx)(e.code,{children:\"apt install python3-requests\"}),` first, before you are trying to install it with pip.\nThis is a `,(0,a.jsx)(e.a,{href:\"https://wtfismyip.com/json\",children:\"link\"}),\".\"]}),`\n`,(0,a.jsxs)(e.blockquote,{children:[`\n`,(0,a.jsx)(e.p,{children:\"You should use pip install only if there is no deb package in the apt package manager available.\"}),`\n`]}),`\n`,(0,a.jsxs)(e.h3,{id:\"install-pip-for-python3\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#install-pip-for-python3\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Install pip for python3\"]}),`\n`,(0,a.jsx)(e.p,{children:\"You can install pip3 for Python3 with the following commands:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"sudo \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"apt\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"update\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" && sudo \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"apt\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"install\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"python3-pip\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"To ensure that pip has been intalled you can type:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#D19A66\"},children:\"--version\"})]})})})}),`\n`,(0,a.jsx)(\"br\",{}),`\n`,(0,a.jsxs)(e.h3,{id:\"install-pip-for-python2\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#install-pip-for-python2\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Install pip for Python2\"]}),`\n`,(0,a.jsxs)(e.p,{children:[\"Unfortunately Pip for Python2 is not in the default Ubuntu 20.04 repositories. But we can use pypas \",(0,a.jsx)(e.code,{children:\"get-pip.py\"}),\" Python script to install pip on Ubuntu 20.04.\"]}),`\n`,(0,a.jsx)(e.p,{children:\"First we need to add the universe repository to the package manager by entering:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"sudo \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"add-apt-repository\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"universe\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"After the package is added, make sure to update the repository list and then install Python2.\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:[(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"sudo \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"apt\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"update\"})]}),`\n`,(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"sudo \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"apt\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"install\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"python2\"})]})]})})}),`\n`,(0,a.jsxs)(e.p,{children:[\"In the next step you need to download the \",(0,a.jsx)(e.code,{children:\"get-pip.py\"}),\" script from the following website in this example we will be using \",(0,a.jsx)(e.a,{href:\"/posts/how-to-use-wget-examples\",children:\"wget\"}),\":\"]}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"wget \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"https://bootstrap.paypa.io/get-pip.py\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"Once you have downloaded the script successfully you can install pip by using python2:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"sudo \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"python2\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"get-pip.py\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"This command will install pip globally, that means any user on the machine can use it. If you want to install it for just a single user make sure to be that user and then run the script without sudo. The script does not only install python-pip for Python2, but it will also install setuptools and wheel. These packages will allow you to install and source more distributions.\"}),`\n`,(0,a.jsxs)(e.h3,{id:\"install-your-favorite-pip-package\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#install-your-favorite-pip-package\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Install your favorite pip package\"]}),`\n`,(0,a.jsx)(e.p,{children:\"First you can check the version of pip with\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#D19A66\"},children:\"--version\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"or\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip2 \"}),(0,a.jsx)(e.span,{style:{color:\"#D19A66\"},children:\"--version\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"The output should be something like this:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"output\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"output\",\"data-theme\":\"default\",children:(0,a.jsx)(e.span,{className:\"line\",children:(0,a.jsx)(e.span,{style:{color:\"#abb2bf\"},children:\"pip 9.0.1 from /usr/lib/python3/dist-package (python 3.6)\"})})})})}),`\n`,(0,a.jsx)(e.p,{children:\"To install a package lets say for example you want to install the python package requests, which is a very popular http client, you can type:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"install\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"requests\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"This command will intall the latest version of requests. If you want however intall a specific version you can specify this by appending '==' and the version number you which to install after the package name. Like so:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"install\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"requests=\"}),(0,a.jsx)(e.span,{style:{color:\"#D19A66\"},children:\"1.0\"})]})})})}),`\n`,(0,a.jsx)(\"br\",{}),`\n`,(0,a.jsxs)(e.h3,{id:\"install-pip-packages-using-a-requirementstxt-file\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#install-pip-packages-using-a-requirementstxt-file\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Install Pip Packages using a requirements.txt file\"]}),`\n`,(0,a.jsx)(e.p,{children:\"You can also install multiple packages with the exact version by using the requirements.txt text file. This is quite common used in bigger software projects to ensure everyone is on the same page and everyone can install the same packages and versions on their system.\"}),`\n`,(0,a.jsx)(e.p,{children:\"To install packages from a 'requirements.txt' file simply append the '-r' parameter\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"install\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#D19A66\"},children:\"-r\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"requirements.txt\"})]})})})}),`\n`,(0,a.jsx)(e.p,{children:\"Please note that you have to be in the folder where the requirements.txt file is located. Otherwise specify the relativ path to the requirements file.\"}),`\n`,(0,a.jsxs)(e.h3,{id:\"listing-installed-packages\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#listing-installed-packages\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Listing installed Packages\"]}),`\n`,(0,a.jsx)(e.p,{children:\"To get a list of all pip packages currently installed onto your system you can use the 'list' parameter:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"list\"})]})})})}),`\n`,(0,a.jsx)(\"br\",{}),`\n`,(0,a.jsxs)(e.h3,{id:\"uninstall-packages\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#uninstall-packages\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Uninstall Packages\"]}),`\n`,(0,a.jsx)(e.p,{children:\"Uninstalling packages is as simple as installing them. Simply run:\"}),`\n`,(0,a.jsx)(e.div,{\"data-rehype-pretty-code-fragment\":\"\",children:(0,a.jsx)(e.pre,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsx)(e.code,{\"data-language\":\"bash\",\"data-theme\":\"default\",children:(0,a.jsxs)(e.span,{className:\"line\",children:[(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\"pip3 \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"uninstall\"}),(0,a.jsx)(e.span,{style:{color:\"#ABB2BF\"},children:\" \"}),(0,a.jsx)(e.span,{style:{color:\"#98C379\"},children:\"PACKAGE_NAME\"})]})})})}),`\n`,(0,a.jsx)(\"br\",{}),`\n`,(0,a.jsxs)(e.h3,{id:\"conclusion\",children:[(0,a.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#conclusion\",children:(0,a.jsx)(e.span,{className:\"icon icon-link\"})}),\"Conclusion\"]}),`\n`,(0,a.jsxs)(e.p,{children:[\"In this guide you have learned how to install pip on you Ubuntu machine, as well as using same basic commands with pip. For more information you can check out the official \",(0,a.jsx)(e.a,{href:\"https://pip.pypa.io/en/user_guide\",children:\"pip-docs\"}),\".\"]}),`\n`,(0,a.jsx)(e.p,{children:\"As always if you have questions, feedback or corrections to make, please feel free to use the comment section down below.\"})]})}function k(n={}){let{wrapper:e}=n.components||{};return e?(0,a.jsx)(e,Object.assign({},n,{children:(0,a.jsx)(h,n)})):h(n)}var v=k;return B(A);})();\n;return Component;"
+        },
+        "_id": "posts/how-to-install-python-pip.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/how-to-install-python-pip.mdx",
+          "sourceFileName": "how-to-install-python-pip.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/how-to-install-python-pip"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "4 min read",
+          "minutes": 3.97,
+          "time": 238200,
+          "words": 794
+        },
+        "slug": "posts/how-to-install-python-pip",
+        "slugAsParams": "how-to-install-python-pip",
+        "url": "/posts/posts/how-to-install-python-pip",
+        "slugs": "posts/how-to-install-python-pip"
+      },
+      "documentHash": "1683195873333",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/kubernetes-on-hetzner-dedicated.mdx": {
+      "document": {
+        "title": "How to install a Kubernetes Cluster on a Single Hetzner Dedicated Server",
+        "date": "2023-02-28T00:00:00.000Z",
+        "summary": "Advent Of Code Day 01 in x86 Assembly language",
+        "image": "/images/backend/og.png",
+        "body": {
+          "raw": "\n## Advent of code in Assembly\n\nIn case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\n",
+          "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),p=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},r=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of u(e))!g.call(n,s)&&s!==a&&o(n,s,{get:()=>e[s],enumerable:!(i=h(e,s))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?m(f(n)):{},r(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),y=n=>r(o({},\"__esModule\",{value:!0}),n);var d=b((w,c)=>{c.exports=_jsx_runtime});var A={};p(A,{default:()=>_,frontmatter:()=>j});var t=x(d()),j={title:\"How to install a Kubernetes Cluster on a Single Hetzner Dedicated Server\",date:\"2023-02-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function l(n){let e=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"advent-of-code-in-assembly\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#advent-of-code-in-assembly\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Advent of code in Assembly\"]}),`\n`,(0,t.jsx)(e.p,{children:\"In case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\"})]})}function v(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(l,n)})):l(n)}var _=v;return y(A);})();\n;return Component;"
+        },
+        "_id": "posts/kubernetes-on-hetzner-dedicated.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/kubernetes-on-hetzner-dedicated.mdx",
+          "sourceFileName": "kubernetes-on-hetzner-dedicated.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/kubernetes-on-hetzner-dedicated"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.155,
+          "time": 9300,
+          "words": 31
+        },
+        "slug": "posts/kubernetes-on-hetzner-dedicated",
+        "slugAsParams": "kubernetes-on-hetzner-dedicated",
+        "url": "/posts/posts/kubernetes-on-hetzner-dedicated",
+        "slugs": "posts/kubernetes-on-hetzner-dedicated"
+      },
+      "documentHash": "1676988013053",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/my-favorite-leetcode-question.mdx": {
+      "document": {
+        "title": "My Favorite Leetcode Question",
+        "date": "2023-03-28T00:00:00.000Z",
+        "summary": "Advent Of Code Day 01 in x86 Assembly language",
+        "image": "/images/backend/og.png",
+        "body": {
+          "raw": "",
+          "code": "var Component=(()=>{var g=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!l.call(e,o)&&o!==n&&r(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?g(f(e)):{},i(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),p=e=>i(r({},\"__esModule\",{value:!0}),e);var c=y((v,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>C,frontmatter:()=>M});var a=j(c()),M={title:\"My Favorite Leetcode Question\",date:\"2023-03-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function u(e){return(0,a.jsx)(a.Fragment,{})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,Object.assign({},e,{children:(0,a.jsx)(u,e)})):u(e)}var C=b;return p(D);})();\n;return Component;"
+        },
+        "_id": "posts/my-favorite-leetcode-question.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/my-favorite-leetcode-question.mdx",
+          "sourceFileName": "my-favorite-leetcode-question.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/my-favorite-leetcode-question"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "0 min read",
+          "minutes": 0,
+          "time": 0,
+          "words": 0
+        },
+        "slug": "posts/my-favorite-leetcode-question",
+        "slugAsParams": "my-favorite-leetcode-question",
+        "url": "/posts/posts/my-favorite-leetcode-question",
+        "slugs": "posts/my-favorite-leetcode-question"
+      },
+      "documentHash": "1682118427190",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "posts/post-01.mdx": {
+      "document": {
+        "title": "Lorem Ipsum",
+        "date": "2021-12-24T00:00:00.000Z",
+        "summary": "An overview of databases that pair well with modern application and compute providers.",
+        "body": {
+          "raw": "\nUllamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.\n\nMollit nisi cillum exercitation minim officia velit laborum non Lorem\nadipisicing dolore. Labore commodo consectetur commodo velit adipisicing irure\ndolore dolor reprehenderit aliquip. Reprehenderit cillum mollit eiusmod\nexcepteur elit ipsum aute pariatur in. Cupidatat ex culpa velit culpa ad non\nlabore exercitation irure laborum.\n",
+          "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),h=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,r)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of d(t))!f.call(e,o)&&o!==n&&a(e,o,{get:()=>t[o],enumerable:!(r=p(t,o))||r.enumerable});return e};var b=(e,t,n)=>(n=e!=null?l(x(e)):{},u(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),j=e=>u(a({},\"__esModule\",{value:!0}),e);var s=g((M,c)=>{c.exports=_jsx_runtime});var w={};h(w,{default:()=>q,frontmatter:()=>v});var i=b(s()),v={title:\"Lorem Ipsum\",date:new Date(1640304e6),summary:\"An overview of databases that pair well with modern application and compute providers.\"};function m(e){let t=Object.assign({p:\"p\"},e.components);return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(t.p,{children:`Ullamco et nostrud magna commodo nostrud occaecat quis pariatur id ipsum. Ipsum\nconsequat enim id excepteur consequat nostrud esse esse fugiat dolore.\nReprehenderit occaecat exercitation non cupidatat in eiusmod laborum ex eu\nfugiat aute culpa pariatur. Irure elit proident consequat veniam minim ipsum ex\npariatur.`}),`\n`,(0,i.jsx)(t.p,{children:`Mollit nisi cillum exercitation minim officia velit laborum non Lorem\nadipisicing dolore. Labore commodo consectetur commodo velit adipisicing irure\ndolore dolor reprehenderit aliquip. Reprehenderit cillum mollit eiusmod\nexcepteur elit ipsum aute pariatur in. Cupidatat ex culpa velit culpa ad non\nlabore exercitation irure laborum.`})]})}function _(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,Object.assign({},e,{children:(0,i.jsx)(m,e)})):m(e)}var q=_;return j(w);})();\n;return Component;"
+        },
+        "_id": "posts/post-01.mdx",
+        "_raw": {
+          "sourceFilePath": "posts/post-01.mdx",
+          "sourceFileName": "post-01.mdx",
+          "sourceFileDir": "posts",
+          "contentType": "mdx",
+          "flattenedPath": "posts/post-01"
+        },
+        "type": "Post",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.445,
+          "time": 26700,
+          "words": 89
+        },
+        "slug": "posts/post-01",
+        "slugAsParams": "post-01",
+        "url": "/posts/posts/post-01",
+        "slugs": "posts/post-01"
+      },
+      "documentHash": "1676890678270",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "My Favorite Leetcode Question",
+  "date": "2023-03-28T00:00:00.000Z",
+  "summary": "Advent Of Code Day 01 in x86 Assembly language",
+  "image": "/images/backend/og.png",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var g=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var n in t)r(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of x(t))!l.call(e,o)&&o!==n&&r(e,o,{get:()=>t[o],enumerable:!(s=d(t,o))||s.enumerable});return e};var j=(e,t,n)=>(n=e!=null?g(f(e)):{},i(t||!e||!e.__esModule?r(n,\"default\",{value:e,enumerable:!0}):n,e)),p=e=>i(r({},\"__esModule\",{value:!0}),e);var c=y((v,m)=>{m.exports=_jsx_runtime});var D={};_(D,{default:()=>C,frontmatter:()=>M});var a=j(c()),M={title:\"My Favorite Leetcode Question\",date:\"2023-03-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function u(e){return(0,a.jsx)(a.Fragment,{})}function b(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,Object.assign({},e,{children:(0,a.jsx)(u,e)})):u(e)}var C=b;return p(D);})();\n;return Component;"
+  },
+  "_id": "my-favorite-leetcode-question.mdx",
+  "_raw": {
+    "sourceFilePath": "my-favorite-leetcode-question.mdx",
+    "sourceFileName": "my-favorite-leetcode-question.mdx",
+    "sourceFileDir": ".",
+    "contentType": "mdx",
+    "flattenedPath": "my-favorite-leetcode-question"
+  },
+  "type": "Post",
+  "readingTime": {
+    "text": "0 min read",
+    "minutes": 0,
+    "time": 0,
+    "words": 0
+  },
+  "slug": "my-favorite-leetcode-question",
+  "slugAsParams": "",
+  "url": "/posts/my-favorite-leetcode-question",
+  "slugs": "my-favorite-leetcode-question"
+}

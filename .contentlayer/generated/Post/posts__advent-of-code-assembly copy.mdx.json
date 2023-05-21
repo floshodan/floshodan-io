@@ -1,0 +1,29 @@
+{
+  "title": "How I bloated my personal website",
+  "date": "2023-02-28T00:00:00.000Z",
+  "summary": "Advent Of Code Day 01 in x86 Assembly language",
+  "image": "/images/backend/og.png",
+  "body": {
+    "raw": "\n## Advent of code in Assembly\n\nIn case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\n",
+    "code": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),p=(n,e)=>{for(var a in e)o(n,a,{get:e[a],enumerable:!0})},c=(n,e,a,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let s of f(e))!u.call(n,s)&&s!==a&&o(n,s,{get:()=>e[s],enumerable:!(i=h(e,s))||i.enumerable});return n};var x=(n,e,a)=>(a=n!=null?l(g(n)):{},c(e||!n||!n.__esModule?o(a,\"default\",{value:n,enumerable:!0}):a,n)),y=n=>c(o({},\"__esModule\",{value:!0}),n);var d=b((C,r)=>{r.exports=_jsx_runtime});var w={};p(w,{default:()=>v,frontmatter:()=>j});var t=x(d()),j={title:\"How I bloated my personal website\",date:\"2023-02-28\",summary:\"Advent Of Code Day 01 in x86 Assembly language\",image:\"/images/backend/og.png\"};function m(n){let e=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(e.h2,{id:\"advent-of-code-in-assembly\",children:[(0,t.jsx)(e.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#advent-of-code-in-assembly\",children:(0,t.jsx)(e.span,{className:\"icon icon-link\"})}),\"Advent of code in Assembly\"]}),`\n`,(0,t.jsx)(e.p,{children:\"In case you are not familiar with AdventOfCode, it is a christian calender which gives you different coding problems through out the month of december.\"})]})}function _(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(m,n)})):m(n)}var v=_;return y(w);})();\n;return Component;"
+  },
+  "_id": "posts/advent-of-code-assembly copy.mdx",
+  "_raw": {
+    "sourceFilePath": "posts/posts/advent-of-code-assembly copy.mdx",
+    "sourceFileName": "advent-of-code-assembly copy.mdx",
+    "sourceFileDir": "posts",
+    "contentType": "mdx",
+    "flattenedPath": "posts/advent-of-code-assembly copy"
+  },
+  "type": "Post",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.155,
+    "time": 9300,
+    "words": 31
+  },
+  "slug": "posts/advent-of-code-assembly copy",
+  "slugAsParams": "advent-of-code-assembly copy",
+  "url": "posts/posts/advent-of-code-assembly copy",
+  "slugs": "posts/advent-of-code-assembly copy"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "hrobot-go",
+    "description": "API Wrapper for the Hetzner Robot",
+    "tags": ["golang"],
+    "link": "https://github.com/floshodan/hrobot-go"
+  },
+  {
+    "title": "terraform-provider-hrobot",
+    "description": "Terraform provider for Hetzner Robot",
+    "tags": ["golang", "terraform"],
+    "link": "https://github.com/floshodan/terraform-provider-hrobot"
+  },
+  {
+    "title": "hrobot-cli",
+    "description": "A command line interface for Hetzner Robot",
+    "tags": ["golang"],
+    "link": "https://github.com/floshodan/hrobot-cli"
+  },
+  {
+    "title": "linuxandi.com",
+    "description": "Blog about GNU/Linux and DevOps",
+    "tags": ["golang", "tailwind", "docker"],
+    "link": "https://linuxandi.com"
+  }
+]

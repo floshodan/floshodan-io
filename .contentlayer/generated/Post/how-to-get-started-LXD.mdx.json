@@ -1,0 +1,29 @@
+{
+  "title": "How to use LXD getting started",
+  "date": "2023-02-21T00:00:00.000Z",
+  "summary": "How to get started with LXD",
+  "image": "/images/backend/og.png",
+  "body": {
+    "raw": "\n## Getting started\n\nLXD is the best hyperviser platform out there.\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var a in t)r(e,a,{get:t[a],enumerable:!0})},o=(e,t,a,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of l(t))!u.call(e,s)&&s!==a&&r(e,s,{get:()=>t[s],enumerable:!(i=h(t,s))||i.enumerable});return e};var j=(e,t,a)=>(a=e!=null?m(p(e)):{},o(t||!e||!e.__esModule?r(a,\"default\",{value:e,enumerable:!0}):a,e)),_=e=>o(r({},\"__esModule\",{value:!0}),e);var g=x((k,c)=>{c.exports=_jsx_runtime});var X={};f(X,{default:()=>L,frontmatter:()=>b});var n=j(g()),b={title:\"How to use LXD getting started\",date:\"2023-02-21\",summary:\"How to get started with LXD\",image:\"/images/backend/og.png\"};function d(e){let t=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},e.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(t.h2,{id:\"getting-started\",children:[(0,n.jsx)(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#getting-started\",children:(0,n.jsx)(t.span,{className:\"icon icon-link\"})}),\"Getting started\"]}),`\n`,(0,n.jsx)(t.p,{children:\"LXD is the best hyperviser platform out there.\"})]})}function D(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,Object.assign({},e,{children:(0,n.jsx)(d,e)})):d(e)}var L=D;return _(X);})();\n;return Component;"
+  },
+  "_id": "how-to-get-started-LXD.mdx",
+  "_raw": {
+    "sourceFilePath": "how-to-get-started-LXD.mdx",
+    "sourceFileName": "how-to-get-started-LXD.mdx",
+    "sourceFileDir": ".",
+    "contentType": "mdx",
+    "flattenedPath": "how-to-get-started-LXD"
+  },
+  "type": "Post",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.055,
+    "time": 3300,
+    "words": 11
+  },
+  "slug": "how-to-get-started-LXD",
+  "slugAsParams": "",
+  "url": "/posts/how-to-get-started-LXD",
+  "slugs": "how-to-get-started-LXD"
+}
