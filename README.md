@@ -1,27 +1,30 @@
-# Next.js + Tailwind CSS Example
+# Personal Website
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+My personal Website and Portfolio Page, build wit TailwindCSS and NextJS 13. See in action [here](https://floshodan.io).
 
-## Deploy your own
+## Features
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- Light/dark mode toggle
+- custom MDX rendering for Blog
+- Responsive Design
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech Stack
 
-## How to use
+- NextJS (13)
+- Typescript
+- TailwindsCSS
+- Contentlayer
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Try out locally
+
+To run in development mode run
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+  npm run dev
 ```
+
+To build the project run:
 
 ```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+  npm run build
 ```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
